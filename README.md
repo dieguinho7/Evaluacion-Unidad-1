@@ -141,7 +141,7 @@
     <div class="container">
       <div class="row animate-in-down">
         <div class="col-lg-6 mx-auto p-3" style="">
-          <form class="p-4 bg-primary shadowed" method="post" action="contatoEnviado.html">
+          <form class="p-4 bg-primary shadowed" method="post" action="contactoEnviado.html">
             <h4 class="mb-4 text-center">
               Contactar
             </h4>
