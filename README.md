@@ -1,19 +1,18 @@
-# Evaluacion-Unidad-1
 <!DOCTYPE html>
 <html lang="ES-es">
 
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <!-- CONFIGURACIÓN PAG -->
+  <!-- PAGE settings -->
   <link rel="icon" href="porfile.ico">
   <title>Perfil Profesional</title>
   <!-- CSS dependencies -->
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" type="text/css">
   <link rel="stylesheet" href="neon.css" type="text/css">
-  <!-- Script: Hecho para transparentar -->
+  <!-- Script: Make my navbar transparent when the document is scrolled to top -->
   <script src="js/navbar-ontop.js"></script>
-  <!-- Script: Animado -->
+  <!-- Script: Animated entrance -->
   <script src="js/animate-in.js"></script>
 </head>
 
@@ -35,6 +34,7 @@
       </div>
     </div>
   </nav>
+  <!-- Cover -->
   <div class="align-items-center d-flex py-5 cover section-fade-in-out" style="background-image: url(&quot;assets/restaurant/cover_dark.jpg&quot;);">
     <div class="container">
       <div class="row">
@@ -102,6 +102,7 @@
       </div>
     </div>
   </div>
+  <!-- Carousel reviews -->
   <div class="py-5 text-center section-fade-in-out" style="background-image: url(&quot;assets/restaurant/testimonal_background_dark.jpg&quot;);">
     <div class="container">
       <div class="row">
@@ -145,9 +146,9 @@
             </h4>
             <p class="my-4">Introduce tus datos para contactar conmigo Diego Ismael Cruz G.</p>
             <div class="form-group"> <label>Nombre Completo :</label>
-              <input class="form-control" placeholder="Ingresar su nombre acá"> </div>
-            <div class="form-group" style=""><label>Ingresar Email</label><input type="email" class="form-control" placeholder="Ingresar Email"></div>
-            <button type="submit" class="btn mt-4 btn-block p-2 btn-dark">Enviar Datos</button> 
+              <input class="form-control" placeholder="Ingresar su nombre acá" required=""> </div>
+            <div class="form-group" style=""><label>Ingresar Email</label><input type="email" class="form-control" placeholder="Ingresar Email" required=""></div>
+            <button type="submit" class="btn mt-4 btn-block p-2 btn-dark">Enviar Contacto</button> 
           </form>
         </div>
       </div>
@@ -183,6 +184,7 @@
   <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
   <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+  <!-- Script: Smooth scrolling between anchors in the same page -->
   <script src="js/smooth-scroll.js" style=""></script>
 </body>
 
